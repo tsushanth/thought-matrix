@@ -46,3 +46,11 @@ docker run -d \
   -e PORT=8080 -e HF_TOKEN=<your huggingface token> \
   -e GOOGLE_APPLICATION_CREDENTIALS=/app/credentials.json \
   thought-evaluator-local
+
+Sample Usage:
+
+curl -X POST \                                             
+  https://ai-mindmap-service-917362189743.us-central1.run.app/infer \
+  -H "Content-Type: application/json" \
+  -d '{"prompt":"Explain AI", "max_tokens":50}'
+{"output":"Explain AI.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n","mind_map_id":"mindmaps/20250420-145609_4e7d81e7-58b8-49c4-9d51-c83a54ec89f6.npz","gcs_uri":"gs://thought-matrix/mindmaps/20250420-145609_4e7d81e7-58b8-49c4-9d51-c83a54ec89f6.npz","model":"distilgpt2","partitions":1,"normalized":true}%  

@@ -3,6 +3,7 @@ from google.cloud import storage
 from google.api_core.exceptions import GoogleAPIError
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
+import io
 import numpy as np
 import uuid
 from datetime import datetime
@@ -141,9 +142,12 @@ def save_to_gcs(prompt: str, output: str, mind_map: np.ndarray) -> str:
                 model=cfg.MODEL_NAME,
                 config=cfg.N_PARTITIONS
             )
+            print(f"Buffer size: {buffer.getbuffer().nbytes} bytes")
             buffer.seek(0)  # Rewind the buffer
+            print(f"Buffer rewound")
             blob = bucket.blob(filename)
             blob.upload_from_file(buffer, content_type='application/octet-stream')
+            print(f"Buffer uploaded")
         
         logger.info(f"Saved mind map to gs://{cfg.BUCKET_NAME}/{filename}")
         return filename
@@ -164,10 +168,14 @@ async def infer_endpoint(request: InferenceRequest):
         print(f"Mind Map: {mind_map}")
         print(f"Save to GCS: {cfg.BUCKET_NAME}")
         file_id = save_to_gcs(request.prompt, output, mind_map)
+
+        # Construct the full GCS URI
+        gcs_uri = f"gs://{cfg.BUCKET_NAME}/{file_id}"
         
         return {
             "output": output,
             "mind_map_id": file_id,
+            "gcs_uri": gcs_uri,     # Add the full public-readable URI
             "model": cfg.MODEL_NAME,
             "partitions": cfg.N_PARTITIONS,
             "normalized": True
