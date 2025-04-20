@@ -1,0 +1,10 @@
+fastapi==0.103.1
+uvicorn==0.23.2
+google-cloud-storage==2.13.0
+transformers==4.35.2
+torch==2.1.0
+numpy==1.26.0
+python-dotenv==1.0.0
+google-cloud-aiplatform==1.36.0
+huggingface-hub==0.20.3
+tokenizers==0.15.2
