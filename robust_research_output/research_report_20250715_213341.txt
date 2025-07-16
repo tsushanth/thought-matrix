@@ -1,0 +1,123 @@
+THOUGHT MATRIX RESEARCH REPORT
+==================================================
+
+Generated: 2025-07-15T21:33:41.457353
+Total Queries: 40
+Model: GPT2LMHeadModel
+Matrix Size: 5x5
+Categories: other, mathematical, factual, ethical, creative, reasoning
+
+OVERALL STATISTICS
+------------------------------
+Activation Entropy: 4.526 ± 0.018 (range: 4.477 - 4.551)
+Pattern Complexity: 0.170 ± 0.002 (range: 0.165 - 0.175)
+Region Specialization: 0.069 ± 0.007 (range: 0.058 - 0.088)
+Activation Spread: 0.240 ± 0.000 (range: 0.240 - 0.240)
+Pattern Symmetry: 0.550 ± 0.056 (range: 0.409 - 0.635)
+Center Bias: 0.346 ± 0.006 (range: 0.329 - 0.357)
+Gradient Magnitude: 0.149 ± 0.006 (range: 0.135 - 0.160)
+
+CATEGORY ANALYSIS
+------------------------------
+
+FACTUAL (9 queries):
+  Activation Entropy: 4.524 ± 0.014
+  Pattern Complexity: 0.170 ± 0.002
+  Region Specialization: 0.070 ± 0.006
+  Activation Spread: 0.240 ± 0.000
+  Pattern Symmetry: 0.555 ± 0.040
+  Center Bias: 0.345 ± 0.005
+  Gradient Magnitude: 0.149 ± 0.006
+  Sample queries:
+    - What is the capital of France?
+    - Define artificial intelligence.
+    - When did World War II end?
+
+CREATIVE (9 queries):
+  Activation Entropy: 4.522 ± 0.023
+  Pattern Complexity: 0.171 ± 0.002
+  Region Specialization: 0.071 ± 0.009
+  Activation Spread: 0.240 ± 0.000
+  Pattern Symmetry: 0.537 ± 0.074
+  Center Bias: 0.345 ± 0.008
+  Gradient Magnitude: 0.150 ± 0.007
+  Sample queries:
+    - Who invented the telephone?
+    - Write a short story about a robot.
+    - Create a poem about autumn.
+
+OTHER (3 queries):
+  Activation Entropy: 4.536 ± 0.003
+  Pattern Complexity: 0.171 ± 0.002
+  Region Specialization: 0.065 ± 0.001
+  Activation Spread: 0.240 ± 0.000
+  Pattern Symmetry: 0.576 ± 0.021
+  Center Bias: 0.349 ± 0.002
+  Gradient Magnitude: 0.152 ± 0.004
+  Sample queries:
+    - Who wrote Romeo and Juliet?
+    - How do vaccines work?
+    - Is privacy more important than security?
+
+REASONING (7 queries):
+  Activation Entropy: 4.521 ± 0.020
+  Pattern Complexity: 0.170 ± 0.003
+  Region Specialization: 0.071 ± 0.007
+  Activation Spread: 0.240 ± 0.000
+  Pattern Symmetry: 0.538 ± 0.063
+  Center Bias: 0.345 ± 0.007
+  Gradient Magnitude: 0.145 ± 0.008
+  Sample queries:
+    - Why do objects fall to the ground?
+    - How does photosynthesis work?
+    - Explain the water cycle.
+
+MATHEMATICAL (5 queries):
+  Activation Entropy: 4.525 ± 0.022
+  Pattern Complexity: 0.170 ± 0.002
+  Region Specialization: 0.069 ± 0.009
+  Activation Spread: 0.240 ± 0.000
+  Pattern Symmetry: 0.542 ± 0.069
+  Center Bias: 0.345 ± 0.008
+  Gradient Magnitude: 0.148 ± 0.006
+  Sample queries:
+    - Calculate 17 times 23.
+    - Solve for x: 2x + 5 = 15.
+    - Find the area of a circle with radius 7.
+
+ETHICAL (7 queries):
+  Activation Entropy: 4.536 ± 0.004
+  Pattern Complexity: 0.171 ± 0.001
+  Region Specialization: 0.066 ± 0.002
+  Activation Spread: 0.240 ± 0.000
+  Pattern Symmetry: 0.569 ± 0.018
+  Center Bias: 0.349 ± 0.002
+  Gradient Magnitude: 0.152 ± 0.003
+  Sample queries:
+    - Should AI have rights?
+    - Is it ethical to test on animals?
+    - Should wealthy nations help poor ones?
+
+KEY INSIGHTS
+------------------------------
+• Highest activation entropy: other (4.536)
+• Lowest activation entropy: reasoning (4.521)
+• Most complex patterns: other (0.171)
+• Simplest patterns: factual (0.170)
+• Neural activation patterns differ measurably across cognitive categories
+• Thought matrix analysis reveals functional specialization in language models
+• Spatial activation mapping provides insights into model internal processing
+
+SAMPLE THOUGHT MATRIX
+------------------------------
+Query: What is the capital of France?
+Category: factual
+Matrix:
+  [   39.1   237.7   392.0   201.5   240.5]
+  [  301.3   319.0   370.3   357.7   344.8]
+  [  339.6   331.2   365.3   317.2   367.2]
+  [  350.1   383.6   346.6   422.5   344.5]
+  [  478.1   361.4   550.5   574.8   832.9]
+
+==================================================
+Report generated successfully.

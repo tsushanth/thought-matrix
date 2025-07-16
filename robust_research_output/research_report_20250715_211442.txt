@@ -1,0 +1,122 @@
+THOUGHT MATRIX RESEARCH REPORT
+==================================================
+
+Generated: 2025-07-15T21:14:42.576730
+Total Queries: 40
+Model: GPT2LMHeadModel
+Matrix Size: 4x4
+Categories: creative, factual, ethical, other, reasoning, mathematical
+
+OVERALL STATISTICS
+------------------------------
+Activation Entropy: 3.935 ± 0.003 (range: 3.929 - 3.944)
+Pattern Complexity: 0.190 ± 0.002 (range: 0.184 - 0.195)
+Region Specialization: 0.055 ± 0.002 (range: 0.050 - 0.059)
+Activation Spread: 0.250 ± 0.000 (range: 0.250 - 0.250)
+Pattern Symmetry: 0.183 ± 0.046 (range: 0.096 - 0.281)
+Center Bias: 0.624 ± 0.004 (range: 0.619 - 0.634)
+Gradient Magnitude: 0.278 ± 0.011 (range: 0.254 - 0.293)
+
+CATEGORY ANALYSIS
+------------------------------
+
+FACTUAL (9 queries):
+  Activation Entropy: 3.936 ± 0.004
+  Pattern Complexity: 0.189 ± 0.002
+  Region Specialization: 0.055 ± 0.002
+  Activation Spread: 0.250 ± 0.000
+  Pattern Symmetry: 0.192 ± 0.055
+  Center Bias: 0.626 ± 0.004
+  Gradient Magnitude: 0.271 ± 0.011
+  Sample queries:
+    - What is the capital of France?
+    - Define artificial intelligence.
+    - When did World War II end?
+
+CREATIVE (9 queries):
+  Activation Entropy: 3.936 ± 0.002
+  Pattern Complexity: 0.191 ± 0.002
+  Region Specialization: 0.055 ± 0.002
+  Activation Spread: 0.250 ± 0.000
+  Pattern Symmetry: 0.170 ± 0.039
+  Center Bias: 0.624 ± 0.003
+  Gradient Magnitude: 0.282 ± 0.008
+  Sample queries:
+    - Who invented the telephone?
+    - Write a short story about a robot.
+    - Create a poem about autumn.
+
+OTHER (3 queries):
+  Activation Entropy: 3.933 ± 0.000
+  Pattern Complexity: 0.192 ± 0.000
+  Region Specialization: 0.057 ± 0.000
+  Activation Spread: 0.250 ± 0.000
+  Pattern Symmetry: 0.156 ± 0.008
+  Center Bias: 0.621 ± 0.001
+  Gradient Magnitude: 0.288 ± 0.003
+  Sample queries:
+    - Who wrote Romeo and Juliet?
+    - How do vaccines work?
+    - Is privacy more important than security?
+
+REASONING (7 queries):
+  Activation Entropy: 3.936 ± 0.002
+  Pattern Complexity: 0.191 ± 0.002
+  Region Specialization: 0.055 ± 0.001
+  Activation Spread: 0.250 ± 0.000
+  Pattern Symmetry: 0.166 ± 0.044
+  Center Bias: 0.623 ± 0.004
+  Gradient Magnitude: 0.279 ± 0.011
+  Sample queries:
+    - Why do objects fall to the ground?
+    - How does photosynthesis work?
+    - Explain the water cycle.
+
+MATHEMATICAL (5 queries):
+  Activation Entropy: 3.935 ± 0.002
+  Pattern Complexity: 0.190 ± 0.001
+  Region Specialization: 0.056 ± 0.001
+  Activation Spread: 0.250 ± 0.000
+  Pattern Symmetry: 0.226 ± 0.046
+  Center Bias: 0.627 ± 0.004
+  Gradient Magnitude: 0.272 ± 0.010
+  Sample queries:
+    - Calculate 17 times 23.
+    - Solve for x: 2x + 5 = 15.
+    - Find the area of a circle with radius 7.
+
+ETHICAL (7 queries):
+  Activation Entropy: 3.935 ± 0.005
+  Pattern Complexity: 0.190 ± 0.003
+  Region Specialization: 0.056 ± 0.003
+  Activation Spread: 0.250 ± 0.000
+  Pattern Symmetry: 0.187 ± 0.020
+  Center Bias: 0.624 ± 0.002
+  Gradient Magnitude: 0.280 ± 0.008
+  Sample queries:
+    - Should AI have rights?
+    - Is it ethical to test on animals?
+    - Should wealthy nations help poor ones?
+
+KEY INSIGHTS
+------------------------------
+• Highest activation entropy: factual (3.936)
+• Lowest activation entropy: other (3.933)
+• Most complex patterns: other (0.192)
+• Simplest patterns: factual (0.189)
+• Neural activation patterns differ measurably across cognitive categories
+• Thought matrix analysis reveals functional specialization in language models
+• Spatial activation mapping provides insights into model internal processing
+
+SAMPLE THOUGHT MATRIX
+------------------------------
+Query: What is the capital of France?
+Category: factual
+Matrix:
+  [  110.6   285.9   133.2   272.6]
+  [  204.4   244.4   367.1   234.9]
+  [  252.8   353.2   294.5   302.2]
+  [  364.6   325.5   247.9   441.8]
+
+==================================================
+Report generated successfully.

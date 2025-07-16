@@ -1,0 +1,123 @@
+THOUGHT MATRIX RESEARCH REPORT
+==================================================
+
+Generated: 2025-07-15T21:23:36.933246
+Total Queries: 50
+Model: GPT2LMHeadModel
+Matrix Size: 5x5
+Categories: reasoning, factual, ethical, mathematical, other, creative
+
+OVERALL STATISTICS
+------------------------------
+Activation Entropy: 4.530 ± 0.015 (range: 4.481 - 4.550)
+Pattern Complexity: 0.171 ± 0.003 (range: 0.164 - 0.180)
+Region Specialization: 0.067 ± 0.006 (range: 0.059 - 0.087)
+Activation Spread: 0.240 ± 0.000 (range: 0.240 - 0.240)
+Pattern Symmetry: 0.558 ± 0.053 (range: 0.385 - 0.638)
+Center Bias: 0.348 ± 0.004 (range: 0.333 - 0.355)
+Gradient Magnitude: 0.150 ± 0.006 (range: 0.134 - 0.160)
+
+CATEGORY ANALYSIS
+------------------------------
+
+FACTUAL (12 queries):
+  Activation Entropy: 4.532 ± 0.011
+  Pattern Complexity: 0.171 ± 0.002
+  Region Specialization: 0.067 ± 0.004
+  Activation Spread: 0.240 ± 0.000
+  Pattern Symmetry: 0.570 ± 0.025
+  Center Bias: 0.348 ± 0.002
+  Gradient Magnitude: 0.150 ± 0.005
+  Sample queries:
+    - What is the capital of France?
+    - Define artificial intelligence.
+    - When did World War II end?
+
+CREATIVE (11 queries):
+  Activation Entropy: 4.523 ± 0.020
+  Pattern Complexity: 0.169 ± 0.002
+  Region Specialization: 0.070 ± 0.008
+  Activation Spread: 0.240 ± 0.000
+  Pattern Symmetry: 0.521 ± 0.070
+  Center Bias: 0.346 ± 0.006
+  Gradient Magnitude: 0.147 ± 0.008
+  Sample queries:
+    - Who invented the telephone?
+    - Write a short story about a robot.
+    - Create a poem about autumn.
+
+OTHER (4 queries):
+  Activation Entropy: 4.532 ± 0.001
+  Pattern Complexity: 0.170 ± 0.001
+  Region Specialization: 0.067 ± 0.000
+  Activation Spread: 0.240 ± 0.000
+  Pattern Symmetry: 0.566 ± 0.034
+  Center Bias: 0.347 ± 0.001
+  Gradient Magnitude: 0.152 ± 0.004
+  Sample queries:
+    - Who wrote Romeo and Juliet?
+    - How do vaccines work?
+    - Is privacy more important than security?
+
+REASONING (9 queries):
+  Activation Entropy: 4.536 ± 0.008
+  Pattern Complexity: 0.171 ± 0.001
+  Region Specialization: 0.066 ± 0.003
+  Activation Spread: 0.240 ± 0.000
+  Pattern Symmetry: 0.566 ± 0.036
+  Center Bias: 0.350 ± 0.002
+  Gradient Magnitude: 0.151 ± 0.004
+  Sample queries:
+    - Why do objects fall to the ground?
+    - How does photosynthesis work?
+    - Explain the water cycle.
+
+MATHEMATICAL (6 queries):
+  Activation Entropy: 4.525 ± 0.020
+  Pattern Complexity: 0.171 ± 0.004
+  Region Specialization: 0.070 ± 0.007
+  Activation Spread: 0.240 ± 0.000
+  Pattern Symmetry: 0.561 ± 0.065
+  Center Bias: 0.347 ± 0.006
+  Gradient Magnitude: 0.152 ± 0.007
+  Sample queries:
+    - Calculate 17 times 23.
+    - Solve for x: 2x + 5 = 15.
+    - Find the area of a circle with radius 7.
+
+ETHICAL (8 queries):
+  Activation Entropy: 4.534 ± 0.009
+  Pattern Complexity: 0.171 ± 0.003
+  Region Specialization: 0.066 ± 0.004
+  Activation Spread: 0.240 ± 0.000
+  Pattern Symmetry: 0.577 ± 0.046
+  Center Bias: 0.349 ± 0.004
+  Gradient Magnitude: 0.151 ± 0.007
+  Sample queries:
+    - Should AI have rights?
+    - Is it ethical to test on animals?
+    - Should wealthy nations help poor ones?
+
+KEY INSIGHTS
+------------------------------
+• Highest activation entropy: reasoning (4.536)
+• Lowest activation entropy: creative (4.523)
+• Most complex patterns: reasoning (0.171)
+• Simplest patterns: creative (0.169)
+• Neural activation patterns differ measurably across cognitive categories
+• Thought matrix analysis reveals functional specialization in language models
+• Spatial activation mapping provides insights into model internal processing
+
+SAMPLE THOUGHT MATRIX
+------------------------------
+Query: What is the capital of France?
+Category: factual
+Matrix:
+  [   29.1   180.5   290.9   151.1   178.9]
+  [  215.7   231.6   278.8   260.2   260.3]
+  [  253.7   247.6   274.6   238.1   277.8]
+  [  272.0   283.5   257.4   307.1   269.2]
+  [  343.7   287.2   407.7   443.8   598.3]
+
+==================================================
+Report generated successfully.
